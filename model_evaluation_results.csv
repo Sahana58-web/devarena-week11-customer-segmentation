@@ -1,0 +1,20 @@
+Segment,Model,Features,Customers,Churners,Accuracy,Precision,Recall,F1,ROC-AUC,TP,FP,FN,TN,AUC std over folds
+Premium Flexible,Segment model (default settings),With Tenure,100,23,1.0,1.0,1.0,1.0,1.0,23,0,0,77,0.0
+Premium Flexible,Segment model (default settings),Sign-up only,100,23,0.69,0.278,0.217,0.244,0.503,5,13,18,64,0.144
+Premium Committed,Segment model (default settings),With Tenure,162,14,0.914,0.5,0.214,0.3,0.962,3,3,11,145,0.022
+Premium Committed,Segment model (default settings),Sign-up only,162,14,0.895,0.0,0.0,0.0,0.47,0,3,14,145,0.136
+Budget Flexible,Segment model (default settings),With Tenure,156,13,0.955,1.0,0.462,0.632,0.99,6,0,7,143,0.015
+Budget Flexible,Segment model (default settings),Sign-up only,156,13,0.853,0.0,0.0,0.0,0.47,0,10,13,133,0.199
+Premium Flexible,Segment model (tuned),With Tenure,100,23,1.0,1.0,1.0,1.0,1.0,23,0,0,77,
+Premium Flexible,Segment model (tuned),Sign-up only,100,23,0.61,0.136,0.13,0.133,0.471,3,19,20,58,
+Premium Committed,Segment model (tuned),With Tenure,162,14,0.944,0.632,0.857,0.727,0.964,12,7,2,141,
+Premium Committed,Segment model (tuned),Sign-up only,162,14,,0.0,0.0,0.0,0.437,0,,14,,
+Budget Flexible,Segment model (tuned),With Tenure,156,13,0.949,0.727,0.615,0.667,0.983,8,3,5,140,
+Budget Flexible,Segment model (tuned),Sign-up only,156,13,0.801,0.179,0.385,0.244,0.681,5,23,8,120,
+Premium Flexible,One model for all,With Tenure,100,23,1.0,1.0,1.0,1.0,1.0,23,0,0,77,
+Premium Flexible,One model for all,Sign-up only,100,23,0.63,0.15,0.13,0.14,0.465,3,17,20,60,
+Premium Committed,One model for all,With Tenure,162,14,0.926,0.583,0.5,0.538,0.966,7,5,7,143,
+Premium Committed,One model for all,Sign-up only,162,14,0.87,0.111,0.071,0.087,0.451,1,8,13,140,
+Budget Flexible,One model for all,With Tenure,156,13,0.994,1.0,0.923,0.96,1.0,12,0,1,143,
+Budget Flexible,One model for all,Sign-up only,156,13,0.859,0.091,0.077,0.083,0.588,1,10,12,133,
+Budget Committed,No model (too few churners),,82,3,,,,,,,,,,
